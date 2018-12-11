@@ -30,13 +30,13 @@ define(function(){
             //_stateText.visible = false;
         },
         updateHealthText: function(health){
-            _healthText.text = "Health: "+health;
+            _healthText.text = "Salud: "+health;
         },
         updateLivesText: function(lives){
-            _livesText.text = "Lives: "+lives;
+            _livesText.text = "Vidas: "+lives;
         },
         updateScoreText: function(score){
-            _scoreText.text = "Score: "+(_score+=score);
+            _scoreText.text = "Puntaje: "+(_score+=score);
         },
         createTitle: function(title){
             _stateText = _game.add.text(_game.world.centerX,_game.world.centerY,
