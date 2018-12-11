@@ -66,7 +66,7 @@ define(['module/HUD'],function(HUD){
             _game = game;            
         },
         preload: function(){
-            _game.load.image('ship', 'assets/img/invader32x32x4.png');
+            _game.load.image('ship', 'assets/img/invader.png');
         },
         create: function(configuration){
             _ship = _game.add.sprite(400,500,'ship');
